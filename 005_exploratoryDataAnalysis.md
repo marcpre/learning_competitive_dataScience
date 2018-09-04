@@ -25,3 +25,20 @@ Sometimes without modelling you can already find patterns within the data by usi
 
 * Where features more weighted?
 * Find out about the generation algorithm
+
+### 4. Anonymized Data
+
+Organizers are anonymizing data due to keep the information secret, but still make it useful for modelling.
+
+* *Explore indiviual features:*
+* Explore each feature and guess the column meaning
+* Guess the column type
+* Useful functions:
+
+```
+df.dtypes()
+df.info()
+x.value_counts()
+x.isnull()
+``` 
+
