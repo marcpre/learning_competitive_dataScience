@@ -41,4 +41,22 @@ df.info()
 x.value_counts()
 x.isnull()
 ``` 
+### 5. Visualization
+
+5.1 To explore individual features:
+* Histogram
+Aggregate the data and but data into several different buckets.  
+* Plots
+* Statistics
+
+5.2 To explore feature relations:
+
+*Pairs:*
+* Scatter Plot, Scatter Matrix
+* Correlation plot
+
+*Groups:*
+* Corrplot + clustering
+* Plot(index vs. feature statistics)
+
 
