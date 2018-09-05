@@ -59,4 +59,14 @@ Aggregate the data and but data into several different buckets.
 * Corrplot + clustering
 * Plot(index vs. feature statistics)
 
+### 6. Dataset cleaning
+* Remove constant features
+* Remove features that do not occur on the test set
+* Find duplicated features
+```
+for f in categorical_feats:
+    traintest[f] = traintest[f].factorize()
+traintest.T.drop_duplicates()
+```
+
 
