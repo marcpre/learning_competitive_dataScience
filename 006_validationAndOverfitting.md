@@ -26,3 +26,29 @@ Data is split into K-parts - folds - and the average is taken from each fold.
 Data is left out and there are again several folds. The average is taken from each fold.
 
 `sklearn.model_selection.LeaveOneOut`
+
+### 3. Data splitting strategies
+
+Different data splitting strategies can differ significantly...
+
+1. in generated features
+2. in a way the model will rely on that feature
+3. in some kind of target leak
+
+#### 3.1 Splitting Strategies
+
+1. Random, rowwise
+Rows are independent of each other. 
+
+2. Timewise
+Split on a certain date 
+Special case for timewise split is a moving window validation
+
+3. By id
+Split on a certain id
+
+4. Combined
+Combine several above splits.
+
+--> In Kaggle competition, match the same train/test split of the competition organizer
+
