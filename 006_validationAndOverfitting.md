@@ -52,3 +52,21 @@ Combine several above splits.
 
 --> In Kaggle competition, match the same train/test split of the competition organizer
 
+### 4. Validation Problems (during competition)
+
+#### 4.1 Validation stage
+
+Consider the following:
+1. Too little data
+2. Too diverse and inconsistant data
+
+Extensive validation should be done here:
+1. Average scores from different k-fold splits
+2. Tune model on the splits, evaluate scores on the other
+
+
+#### 4.2 Submission stage
+
+1. LB score is consistently higher/lower that validations core
+2. LB score is not correlated with validation score at all
+
