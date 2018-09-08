@@ -3,7 +3,6 @@
 * What is it about?
 It is unexpected information in the data that allows us to make unrealistically good predictions.
 
-
 ### 1. Basic Data Leakages
 
 #### 1.1 Leakage types and examples
@@ -14,3 +13,8 @@ It is unexpected information in the data that allows us to make unrealistically 
 
 2. Unexpected Information
 * For example images, meta data, information in IDs, row order
+ 
+
+### 2. Leaderboard Probing
+
+* Get "ground truths" from leaderboard to include in the data
