@@ -34,4 +34,13 @@ For example: Looking at absolut values of MSE/RMSE it is hard to predict if a mo
 
 #### (R)MSPE, MAPE
 
-#### (R)MSLE
+*(Relative) Mean Squared Prediction Error*
+* Basically uses the relative error instead of the absoute
+* Weigthed version of MSE
+* Best constant: weigthed target mean
+
+*Mean absolute percentage error*
+
+#### (R)MSLE - Root Mean Squared Logarithmic error
+* Does not differ much from MSE
+* Its basically MSE in log space
