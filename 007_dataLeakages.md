@@ -19,7 +19,7 @@ It is unexpected information in the data that allows us to make unrealistically 
 
 * Get "ground truths" from leaderboard to include in the data
 
-### Example - Expedia Competition
+### Example - Kaggle: Expedia Competition
 
 * Expedia Competition was about predicting, which hotel to book.
 * The var `destination_distance` gave a good approximation for the true hotel location
