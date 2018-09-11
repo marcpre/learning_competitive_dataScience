@@ -63,4 +63,14 @@ For example: Looking at absolut values of MSE/RMSE it is hard to predict if a mo
 #### (Quadratic weighted) Kappa/Cohens Kappa
 * For an accuracy of 1 we get 1 and for a baseline we get 0
 * Similar to R^2
-* 
+
+### General approaches to metric optimization
+* Target metric is what we want to optimized
+* Loss function is, what the model is using to optimize itself
+* Approaches for target metric optimization
+  * Some metrics can be optimized directly(MSE, Logloss)
+  * Preprocess train and optimize another metricOptimize another metric
+  * Write custom loss function
+
+
+
