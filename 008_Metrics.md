@@ -44,3 +44,23 @@ For example: Looking at absolut values of MSE/RMSE it is hard to predict if a mo
 #### (R)MSLE - Root Mean Squared Logarithmic error
 * Does not differ much from MSE
 * Its basically MSE in log space
+
+ 
+### Classification Metrics
+
+#### Accuracy
+* This value describes, how frequent our prediction is correct
+* Best constant: 
+  * predict the most frequent class
+
+#### Area under ROC curve
+* Only for binary tasks
+* Depends only on ordering of the predictions, not on absolute values
+* We plot the points on a matrix - false/true positives. Then we calculate the area under the curve. 
+* Best constant:
+  * All constant give same score
+
+#### (Quadratic weighted) Kappa/Cohens Kappa
+* For an accuracy of 1 we get 1 and for a baseline we get 0
+* Similar to R^2
+* 
