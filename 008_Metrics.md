@@ -72,5 +72,33 @@ For example: Looking at absolut values of MSE/RMSE it is hard to predict if a mo
   * Preprocess train and optimize another metricOptimize another metric
   * Write custom loss function
 
+## Metric Optimization for Regression Metrics
+
+### RMSE, MSE, R-Squared
+* Just find the right model for optimization
+* Libraries:
+  * Tree-based: XGBoost, LightGBM
+  * Linear-based: sklearn.<>Regression, sklearn.SGDRegression, Vowpal Wabbit (quantil loss)
+  * Neural Nets: Pytorch, Keras, TF, etc.
+
+### MAE
+* Libraries:
+  * Tree-based: LightGBM
+  * Linear-based: Vowpal Wabbit (quantil loss)
+  * Neural Nets: Pytorch, Keras, TF, etc.
+
+### MSPE and MAPE
+* Optimize as weighted MSE
+* Not every library accepts sample weights
+  * XGBoost, LightGBM accept
+  * Neural Nets
+    * Easy to implement if not supported
+* Resample the train set
+
+### RMSLE
+* Transform target and fit a model with MSE loss  
+  
+  
+
 
 
