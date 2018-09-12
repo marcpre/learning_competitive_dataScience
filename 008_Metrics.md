@@ -98,7 +98,15 @@ For example: Looking at absolut values of MSE/RMSE it is hard to predict if a mo
 ### RMSLE
 * Transform target and fit a model with MSE loss  
   
+
+## Metric Optimization for Classification Metrics
+
+### Logloss
+* Libraries:
+  * Tree-based: XGBoost, LightGBM
+  * Linear-based: sklearn.<>Regression, sklearn.SGDRegression, Vowpal Wabbit (quantil loss)
+  * Neural Nets: Pytorch, Keras, TF, etc.
+* 
   
-
-
-
+### Accuracy
+* Fit proxy losses to optimize
