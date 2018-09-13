@@ -106,7 +106,18 @@ For example: Looking at absolut values of MSE/RMSE it is hard to predict if a mo
   * Tree-based: XGBoost, LightGBM
   * Linear-based: sklearn.<>Regression, sklearn.SGDRegression, Vowpal Wabbit (quantil loss)
   * Neural Nets: Pytorch, Keras, TF, etc.
-* 
+
   
 ### Accuracy
 * Fit proxy losses to optimize
+
+### AUC (ROC)
+* Pointwise loss, compute the loss of the model and of the (same) model
+* Libraries that implement this:
+  * Tree-based: XGBoost, LightGBM
+  * Neural Nets: Pytorch, Keras, TF, etc.
+
+### Quadratic weighted Kappa
+* 2 ways to optimize:
+  * Optimize MSE and find right thresholds --> Simple
+  * Custom smooth loss for GBDT or neural nets --> Hard
