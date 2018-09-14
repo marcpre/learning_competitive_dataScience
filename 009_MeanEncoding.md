@@ -10,3 +10,11 @@
   * Smoothing
   * Adding random noise
   * Sorting and calculating expanding mean
+
+  
+### Generalization and extensions
+
+* Regression tasks:
+  * Are more flexible to mean encoding
+  * Many-to-Many encodings are much more complex
+
