@@ -17,4 +17,3 @@
 * Regression tasks:
   * Are more flexible to mean encoding
   * Many-to-Many encodings are much more complex
-
