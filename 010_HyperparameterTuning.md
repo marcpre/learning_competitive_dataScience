@@ -9,3 +9,17 @@
 * Libraries
   * Hyperot
   * etc.
+
+
+## Tree based models
+* GBDT
+  * XGBoost:
+    * max_depth
+    * subsample
+    * min_child_weight
+    * eta, num_rounds
+  * LightGBM: 
+    * max_depth / num_leaves
+    * bagging_fraction
+    * min_data_in_leaf
+    * learning_rate, num_iterations
