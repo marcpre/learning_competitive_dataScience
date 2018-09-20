@@ -28,3 +28,9 @@
 * You can also use the leafs of a tree based model, see:
   * tree_model.apply()
   * booster.predict(pred_leaf=True)
+
+## tSNE
+* Is used in exploratory data analysis
+* You can get new features from data
+* sklearn can be found an implementation
+
