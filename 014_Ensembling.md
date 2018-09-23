@@ -23,4 +23,20 @@ or f.ex.:
 
 ```
 
+### Bagging
 
+* Means averaging slightly different versions of the same model to improve accuracy
+* Why?
+  * There are 2 sources of error
+        1. Error due to Bias (underfitting)
+        2. Error due to Variance (overfitting)
+* Parameters that control bagging?
+  * Changing the seed
+  * Ros sampling or Bootstrapping
+  * Shuffling
+  * Columns sampling
+  * Model specific parameters
+  * Number of models (or bags)
+  * (Optionally) parallelism
+* Example: BaggingClassifier and Bagging Regressor from SkLearn
+  
