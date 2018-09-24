@@ -73,3 +73,10 @@ or f.ex.:
     2. Train several base learners on the first part
     3. Make predictions with the base learners on the second part
     4. Using the predictions from (3) as input to train a higher level learner
+* Things to be mindful of
+  * With time sensitive data - respect time
+  * Diversity as important as performance. Can be controlled by,
+    * choosing a different algorithm
+    * different input features
+  * Plateau after N models
+  * Meta model is normally modest
