@@ -80,3 +80,19 @@ or f.ex.:
     * different input features
   * Plateau after N models
   * Meta model is normally modest
+
+### StackNet
+* A scalable meta modeling methodology that utilizes stacking to combine multiple models in a neural network architecture of multiple levels
+* Why would this be of any use?
+  * You get better result with deep stacking
+* StackNet as neural network
+  * In a neural network, every node is a simple linear model
+  * Instead of linear model we could use any model
+* How to train?
+  * We cannot use Backpropagation
+  * We use stacking to link each model/node with target
+  * To extend to many layers we use Kfold paradigm
+  * No epochs
+  
+
+### Tips & Tricks
