@@ -93,6 +93,35 @@ or f.ex.:
   * We use stacking to link each model/node with target
   * To extend to many layers we use Kfold paradigm
   * No epochs
-  
+
 
 ### Tips & Tricks
+* 1st Level Tips
+  * Diversity based on algorithm
+    * 2-3 Gradient boosted trees
+    * 2-3 Neural Nets
+    * ^1-3 Extra Trees/Random Forest
+    * 1-3 knn models
+    * 1 Factorization machine
+    * 1 SVM with nonlinear kernel if size/memory allows
+* Diversity based on input data
+  * Categorical features: label encoding
+  * Numerical features: Outliers
+  * Interactions: group by unsupervised
+* Subsequent level tips
+  * Simpler algorithms
+    * GBM
+    * Linear models
+    * Extra Trees
+    * Shallow networks
+    * knn with BrayCurtis Distance
+    * Brute force a search for best linear weights based on cv
+  * Feature engineering
+    * pairwise differences between meta features
+    * Standard feature selection techniques
+  * For every 7.5 models in previous level we ad 1 in meta
+  * Be mindful of target leakage
+* Software
+  * StackNet 
+  * Stacked ensembles from H2O
+  * Xcessiv
