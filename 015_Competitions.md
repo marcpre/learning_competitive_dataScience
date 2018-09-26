@@ -10,3 +10,9 @@
   * Symbolic n-grams
   * Expansion of queries
   * Optimization of thresholds for Kappa
+
+## Springleaf
+* Problem: Determine whether to send a direct mail piece to a customer
+* 
+ 
+  
